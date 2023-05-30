@@ -29,17 +29,12 @@ The repository is structured as follows:
 
 To explore my SQL portfolio, follow these steps:
 
-1. Clone this repository to your local machine using the following command:
 
-   ```
-   git clone https://github.com/tushar2704/Sql-Portfolio.git
-   ```
+1. Navigate to the project folder that interests you.
 
-2. Navigate to the project folder that interests you.
+2. Open the README file to get an overview of the project and its components.
 
-3. Open the README file to get an overview of the project and its components.
-
-4. Review the SQL scripts and any accompanying documentation to gain insights into the project's implementation and results.
+3. Review the SQL scripts and any accompanying documentation to gain insights into the project's implementation and results.
 
 ## Feedback and Contact
 
