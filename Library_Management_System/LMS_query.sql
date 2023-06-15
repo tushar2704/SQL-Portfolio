@@ -17,3 +17,44 @@ FROM issued_books AS i
 JOIN books AS b ON i.book_id=b.id
 GROUP BY b.title 
 ORDER BY total_issued DESC;
+
+/*3)List customers who have never issued a book*/
+SELECT * 
+FROM customers
+WHERE id NOT IN(SELECT customer_id FROM issued_books);
+
+/*4)Update book price by 10% for books issued before Current date*/
+UPDATE books
+SET price=price*1.1
+WHERE id IN (SELECT book_id FROM issued_books JOIN books ON books.id=issued_books.book_id WHERE issue_date < CURRENT_DATE)
+
+/*5) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
