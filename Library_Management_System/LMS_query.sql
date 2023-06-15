@@ -1,3 +1,4 @@
+-- Active: 1686788664084@@127.0.0.1@5432@SQL-Portfolio
 /* Library Management System
 Queries
 © 2023 Tushar Aggarwal. All rights reserved.
@@ -28,7 +29,17 @@ UPDATE books
 SET price=price*1.1
 WHERE id IN (SELECT book_id FROM issued_books JOIN books ON books.id=issued_books.book_id WHERE issue_date < CURRENT_DATE)
 
-/*5) */
+/*5)Delete all overdue issued book records*/
+DELETE FROM issued_books
+WHERE due_date < '2023-07-25' AND return_date IS NULL;
+
+/*6)List total revenue generated from issued books*/
+SELECT COUNT(b.price) AS total_revenue
+FROM books AS b
+JOIN issued_books AS i ON b.id=i.book_id
+WHERE i.issue_date IS NOT NULL;
+
+/*7) */
 
 
 
