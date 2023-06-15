@@ -17,6 +17,7 @@ In this repository, you will find a variety of SQL projects, including:
 
 4. **Employee Performance**: Analysis of employee performance metrics, identifying top performers and areas for improvement within an organization.
 
+5. **Library Management System**: A system capable to issue books and let consumers check different books and their titles categorically.
 ## Repository Structure
 
 The repository is structured as follows:
@@ -48,64 +49,3 @@ I welcome any feedback or suggestions you may have on my SQL portfolio. If you w
 - <b>[Kaggle](https://www.kaggle.com/tusharaggarwal27)</b> 
 
 Thank you for visiting my SQL portfolio repository. I hope you find my projects informative and engaging. Happy exploring!
-
-
-_Created with [AIPRM Prompt "Readme Generator | Markdown Format | GitHub."](https://www.aiprm.com/prompts/softwareengineering/text-editor/1794387468406222848/)_
-
-```markdown
-# SQL-Portfolio
-
-Welcome to my personal SQL portfolio repository! Here you'll find a collection of SQL projects and queries I've worked on, showcasing my skills and expertise in database management, data analysis, and data manipulation using SQL.
-
-## Projects
-
-### Project 1: Sales Analysis
-
-```sql
--- SQL query to calculate total sales by product category
-SELECT category, SUM(sales_amount) AS total_sales
-FROM sales_table
-GROUP BY category;
-```
-
-### Project 2: Customer Segmentation
-
-```sql
--- SQL query to segment customers based on their purchasing behavior
-SELECT customer_id, CASE
-    WHEN total_purchases > 1000 THEN 'High-Value Customer'
-    WHEN total_purchases > 500 THEN 'Medium-Value Customer'
-    ELSE 'Low-Value Customer'
-    END AS customer_segment
-FROM customers;
-```
-
-### Project 3: Inventory Management
-
-```sql
--- SQL query to calculate available stock for each product
-SELECT product_id, product_name, (initial_stock + total_purchases - total_sales) AS available_stock
-FROM products;
-```
-
-## Getting Started
-
-To explore my SQL portfolio, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Install a SQL database management system (e.g., MySQL, PostgreSQL).
-3. Import the necessary database schema and data files.
-4. Connect to the database using your preferred SQL client.
-5. Execute the SQL queries found in the projects folder to analyze and manipulate the data.
-
-## Contributions
-
-If you have any suggestions or improvements for my SQL projects, feel free to open an issue or submit a pull request. Contributions are always welcome!
-
-## Contact
-
-You can reach out to me via email at [your.email@example.com](mailto:your.email@example.com) for any inquiries or collaboration opportunities.
-
-Happy SQL coding!
-```
-```
