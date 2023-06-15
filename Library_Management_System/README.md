@@ -54,3 +54,52 @@ By incorporating these features, the Library Management System aims to provide a
 ## Conclusion
 
 The Library Management System is an automated solution that simplifies the management of books within a library. It offers a user-friendly interface, extensive book details, and efficient search functionality. By utilizing SQL queries, it interacts with a database to store and retrieve information effectively. With this system in place, the process of book management becomes more streamlined and convenient for both library staff and users.
+The `books` table stores information about books available in the library.
+--------------------------------------------
+# Library Management System - Schema created
+
+## Table: books
+
+The `books` table stores information about books available in the library.
+
+### Columns
+
+| Column Name    | Data Type    | Constraints | Description                              |
+|----------------|--------------|-------------|------------------------------------------|
+| id             | SERIAL       | PRIMARY KEY | Unique identifier for the book            |
+| title          | VARCHAR(255) | NOT NULL    | Title of the book                         |
+| author         | VARCHAR(255) | NOT NULL    | Author of the book                        |
+| category       | VARCHAR(255) | NOT NULL    | Category of the book                      |
+| price          | DECIMAL(10,2)| NOT NULL    | Price of the book                         |
+| status         | VARCHAR(255) | NOT NULL    | Status of the book (e.g., available, sold) |
+| total_copies   | INT          | NOT NULL    | Total number of copies available           |
+
+## Table: customers
+
+The `customers` table stores information about the library customers.
+
+### Columns
+
+| Column Name    | Data Type    | Constraints | Description                              |
+|----------------|--------------|-------------|------------------------------------------|
+| id             | SERIAL       | PRIMARY KEY | Unique identifier for the customer        |
+| first_name     | VARCHAR(255) | NOT NULL    | First name of the customer                |
+| last_name      | VARCHAR(255) | NOT NULL    | Last name of the customer                 |
+| email          | VARCHAR(255) | NOT NULL    | Email address of the customer             |
+| phone_number   | VARCHAR(20)  | NOT NULL    | Phone number of the customer              |
+
+## Table: issued_books
+
+The `issued_books` table stores information about the books issued by customers.
+
+### Columns
+
+| Column Name    | Data Type    | Constraints       | Description                             |
+|----------------|--------------|-------------------|-----------------------------------------|
+| id             | SERIAL       | PRIMARY KEY       | Unique identifier for the issued book    |
+| book_id        | INT          | NOT NULL          | Foreign key referencing books(id)        |
+| customer_id    | INT          | NOT NULL          | Foreign key referencing customers(id)    |
+| issue_date     | DATE         | NOT NULL          | Date when the book was issued            |
+| due_date       | DATE         | NOT NULL          | Due date for returning the book          |
+| return_date    | DATE         |                   | Date when the book was returned (optional)|
+----
