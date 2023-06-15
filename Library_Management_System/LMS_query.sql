@@ -39,7 +39,14 @@ FROM books AS b
 JOIN issued_books AS i ON b.id=i.book_id
 WHERE i.issue_date IS NOT NULL;
 
-/*7) */
+/*7)List the number of copies left for each book*/
+SELECT b.title, b.total_copies
+FROM books AS b
+JOIN issued_books AS i on b.id =i.book_id
+WHERE i.issue_date IS NULL;
+
+
+
 
 
 
