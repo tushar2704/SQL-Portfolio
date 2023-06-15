@@ -12,4 +12,8 @@ JOIN books AS b ON i.book_id=b.id
 WHERE i.return_date IS NULL AND i.due_date < CURRENT_DATE;
 
 /*2)List the most popular books (most issued)*/
-
+SELECT b.title, COUNT(i.book_id) AS total_issued
+FROM issued_books AS i
+JOIN books AS b ON i.book_id=b.id
+GROUP BY b.title 
+ORDER BY total_issued DESC;
