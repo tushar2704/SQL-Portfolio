@@ -26,7 +26,35 @@ The database schema for this project consists of the following tables:
 - Transactions: Tracks transaction details.
 - Reports: Stores various system reports.
 
-For a detailed description of the tables and their fields, please refer to the [Database Schema](./database-schema.md) documentation.
+## Project impementation steps:
+Step 1: Database Schema Design
+-  Tables created Customers, Employees, Transactions, and Reports.
+
+Step 2: Creating the Database
+- Using PostgreSQL created the database based on the schema design from Step 1.
+
+Step 3: Implemention of User Registration and Login
+- Created a mechanism for user registration, including capturing customer information such as name, address, contact details, and any other required fields.
+- Implementd a login system to authenticate users and provide them with access to their accounts.
+
+Step 4: Manage User Records
+- Developed functionality for the banking admin to manage user records. 
+- Ensured proper validation and security measures are in place to protect sensitive information.
+
+Step 5: Transaction Management
+- Implemented features for users to perform transactions, such as deposits, withdrawals, and transfers between accounts.
+- Stored transaction details in the Transactions table, including relevant information like transaction type, amount, date, and associated user or employee.
+
+Step 6: Security and Monitoring
+- Enhanced security measures by implementing encryption for sensitive data like passwords and financial information.
+- Implemented a system to monitor user activity and log important transactions or events.
+
+Step 7: Testing and Refinement
+- Tested the system thoroughly to ensure its functionality and identify any bugs or issues.
+- Refine and optimize the system based on testing results, making necessary adjustments and improvements.
+
+Step 8: Documentation and Presentation
+- Documented the system's architecture, functionalities, and any additional details necessary for understanding and maintaining the project.
 
 ## Getting Started
 
