@@ -8,6 +8,9 @@ I am a passionate data enthusiast with a strong background in SQL. Over the year
 ## Projects
 
 In this repository, you will find a variety of SQL projects, including:
+1. **[Bank Accounts Management System](https://github.com/tushar2704/SQL-Portfolio/tree/main/Bank_Accounts_Management_System)** : This Bank Accounts Management System is a SQL-based project designed to manage customer information, employee records, and banking transactions. The system provides features for encoding customer information, tracking user statuses, and managing important transactions.
+
+2. **[Library Management System](https://github.com/tushar2704/SQL-Portfolio/tree/main/Library_Management_System)**: A system capable to issue books and let consumers check different books and their titles categorically.
 
 1. **Sales Analysis**: An in-depth analysis of sales data, exploring patterns, trends, and key metrics to drive business decisions.
 
@@ -17,7 +20,7 @@ In this repository, you will find a variety of SQL projects, including:
 
 4. **Employee Performance**: Analysis of employee performance metrics, identifying top performers and areas for improvement within an organization.
 
-5. **[Library Management System](https://github.com/tushar2704/SQL-Portfolio/tree/main/Library_Management_System)**: A system capable to issue books and let consumers check different books and their titles categorically.
+
 ## Repository Structure
 
 The repository is structured as follows:
