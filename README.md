@@ -17,7 +17,7 @@ In this repository, you will find a variety of SQL projects, including:
 
 4. **Employee Performance**: Analysis of employee performance metrics, identifying top performers and areas for improvement within an organization.
 
-5. **Library Management System**: A system capable to issue books and let consumers check different books and their titles categorically.
+5. **[Library Management System](https://github.com/tushar2704/SQL-Portfolio/tree/main/Library_Management_System)**: A system capable to issue books and let consumers check different books and their titles categorically.
 ## Repository Structure
 
 The repository is structured as follows:
