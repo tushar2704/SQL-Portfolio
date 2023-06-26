@@ -33,4 +33,3 @@ COPY business FROM 'D:\SQL-Portfolio\Oldest_Building_In_The_World\Dataset\busine
 COPY countries FROM 'D:\SQL-Portfolio\Oldest_Building_In_The_World\Dataset\countries.csv' DELIMITER ',' CSV HEADER;
 
 /* ======================= END INSERTING VALUES ========================*/
-
