@@ -12,13 +12,13 @@ In this repository, you will find a variety of SQL projects, including:
 
 2. **[Library Management System](https://github.com/tushar2704/SQL-Portfolio/tree/main/Library_Management_System)**: A system capable to issue books and let consumers check different books and their titles categorically.
 
-1. **Sales Analysis**: An in-depth analysis of sales data, exploring patterns, trends, and key metrics to drive business decisions.
+3. **[Sales Data Analysis and PDF Report Generation](https://github.com/tushar2704/SQL-Portfolio/tree/main/Sales_Report(PDF))**: An analysis of sales data, exploring patterns, trends, and key metrics to drive business decisions and converting it into Sales report.
 
-2. **Customer Segmentation**: Using SQL queries, I have segmented customers based on their purchasing behavior and demographic information, enabling targeted marketing strategies.
+4. **Customer Segmentation**: Using SQL queries, I have segmented customers based on their purchasing behavior and demographic information, enabling targeted marketing strategies.
 
-3. **Inventory Management**: A comprehensive database schema and SQL queries for managing inventory, tracking stock levels, and optimizing reorder points.
+5. **Inventory Management**: A comprehensive database schema and SQL queries for managing inventory, tracking stock levels, and optimizing reorder points.
 
-4. **Employee Performance**: Analysis of employee performance metrics, identifying top performers and areas for improvement within an organization.
+6. **Employee Performance**: Analysis of employee performance metrics, identifying top performers and areas for improvement within an organization.
 
 
 ## Repository Structure
