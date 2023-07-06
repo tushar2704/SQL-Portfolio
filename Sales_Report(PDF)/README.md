@@ -6,7 +6,7 @@ This project focuses on analyzing sales data and generating visually appealing P
 ## Database Schema
 <img src="sales_db_schema.png" width="400" alt="DB Schema">
 
-## PDF Output Example
+## PDF Output Sales Report
 <img src="pdf_output_demo.png" width="400" alt="PDF Output Demo">
 
 ## Features
