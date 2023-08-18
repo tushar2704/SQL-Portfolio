@@ -19,7 +19,7 @@ Welcome to my personal SQL portfolio repository! Here you'll find a collection o
   
 ## About Me
 I am a passionate data enthusiast with a strong background in SQL. Over the years, I have honed my skills in designing and optimizing databases, writing complex queries, and leveraging SQL's powerful features to extract meaningful insights from data. This portfolio serves as a testament to my proficiency in SQL and demonstrates my ability to tackle real-world data challenges. Visit [Tushar-Aggarwal.com](https://www.tushar-aggarwal.com/)
-
+ 
 # SQL Projects
 
 In this repository, you will find a variety of SQL projects, including:
