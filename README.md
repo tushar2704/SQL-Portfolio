@@ -23,45 +23,32 @@ I am a passionate data enthusiast with a strong background in SQL. Over the year
 # SQL Projects
 
 In this repository, you will find a variety of SQL projects, including:
-1. **[Bank Accounts Management System](https://github.com/tushar2704/SQL-Portfolio/tree/main/Bank_Accounts_Management_System)** : This Bank Accounts Management System is a SQL-based project designed to manage customer information, employee records, and banking transactions. The system provides features for encoding customer information, tracking user statuses, and managing important transactions.
 
-2. **[Library Management System](https://github.com/tushar2704/SQL-Portfolio/tree/main/Library_Management_System)**: A system capable to issue books and let consumers check different books and their titles categorically.
 
-3. **[Sales Data Analysis and PDF Report Generation](https://github.com/tushar2704/SQL-Portfolio/tree/main/Sales_Report(PDF))**: An analysis of sales data, exploring patterns, trends, and key metrics to drive business decisions and converting it into Sales report.
+1. [**Sales for Retail and Food Services in U.S.A.**](https://github.com/tushar2704/Sales-for-Retail-and-Food-Services): This project aims to analyze and visualize the sales data for Retail and Food Services in the U.S.A. The data is sourced from the U.S. government website and has been processed using SQL to create a database for easy management and analysis. The main focus of this project is to explore the sales data based on NAICS (North American Industry Classification System) code and category.
 
-4. **Customer Segmentation**: Using SQL queries, I have segmented customers based on their purchasing behavior and demographic information, enabling targeted marketing strategies.
+2. [**International Debt Analysis**](https://github.com/tushar2704/International-Debt-Analysis): The focus of this project is to delve into the realm of international debt analysis and understand its dynamics in a specific context. By narrowing down the scope, I aim to provide in-depth insights that resonate with the complexities and challenges faced by the selected region/country.
 
-5. **Inventory Management**: A comprehensive database schema and SQL queries for managing inventory, tracking stock levels, and optimizing reorder points.
+3. [**Instagram User Analytics**](https://github.com/tushar2704/Instagram-User-Analytics): This project revolves around the exploration and analysis of user engagement patterns on the popular social media platform, Instagram. By delving into user data and interaction metrics, this project aims to provide valuable insights into user behavior, content performance, and trends.
 
-6. **Employee Performance**: Analysis of employee performance metrics, identifying top performers and areas for improvement within an organization.
+4. [**Pizza Sales Analysis**](https://github.com/tushar2704/Pizza-Sales-Analysis): Pizza Sales Analysis has a comprehensive year's worth of sales data from a fictitious pizza place. The dataset includes detailed information about each order, such as the date and time of purchase, the types of pizzas served, their sizes, quantities, prices.
 
-7. [**Sales for Retail and Food Services in U.S.A.**](https://github.com/tushar2704/Sales-for-Retail-and-Food-Services): This project aims to analyze and visualize the sales data for Retail and Food Services in the U.S.A. The data is sourced from the U.S. government website and has been processed using SQL to create a database for easy management and analysis. The main focus of this project is to explore the sales data based on NAICS (North American Industry Classification System) code and category.
+5. [**Employee Distribution**](https://github.com/tushar2704/Employee-Distribution): This repository contains valuable insights and visualizations derived from an extensive HR dataset spanning from 2000 to 2020, with over 22,000 rows. The data was meticulously cleaned and analyzed using PostgreSQL, and the results are beautifully visualized with Power BI. This comprehensive dashboard aims to answer crucial HR-related questions and shed light on various aspects of the organization's workforce.
 
-8. [**International Debt Analysis**](https://github.com/tushar2704/International-Debt-Analysis): The focus of this project is to delve into the realm of international debt analysis and understand its dynamics in a specific context. By narrowing down the scope, I aim to provide in-depth insights that resonate with the complexities and challenges faced by the selected region/country.
+6. [**Operation Analytics and Investigating Metric Spike**](https://github.com/tushar2704/Operational-Analytics-Study): The project will cover a wide range of areas, including user engagement, sales performance, marketing effectiveness, and more. You'll be provided with access to datasets containing user information, events data, and email engagement details.
 
-9. [**Instagram User Analytics**](https://github.com/tushar2704/Instagram-User-Analytics): This project revolves around the exploration and analysis of user engagement patterns on the popular social media platform, Instagram. By delving into user data and interaction metrics, this project aims to provide valuable insights into user behavior, content performance, and trends.
+7. **[Bank Accounts Management System using PostgreSQL](https://github.com/tushar2704/Bank_Accounts_Management_System)** : The Bank Accounts Management System is a portfolio project showcasing my skills in designing and developing a real-world application. This project simulates a system that manages bank accounts using PostgreSQL as the backend database. It aims to demonstrate my proficiency in database design, backend development, frontend development, security implementation, and more.
 
-10. [**Pizza Sales Analysis**](https://github.com/tushar2704/Pizza-Sales-Analysis): Pizza Sales Analysis has a comprehensive year's worth of sales data from a fictitious pizza place. The dataset includes detailed information about each order, such as the date and time of purchase, the types of pizzas served, their sizes, quantities, prices.
-
-11. [**Employee Distribution**](https://github.com/tushar2704/Employee-Distribution): This repository contains valuable insights and visualizations derived from an extensive HR dataset spanning from 2000 to 2020, with over 22,000 rows. The data was meticulously cleaned and analyzed using PostgreSQL, and the results are beautifully visualized with Power BI. This comprehensive dashboard aims to answer crucial HR-related questions and shed light on various aspects of the organization's workforce.
-
-12. [**Operation Analytics and Investigating Metric Spike**](https://github.com/tushar2704/Operational-Analytics-Study): The project will cover a wide range of areas, including user engagement, sales performance, marketing effectiveness, and more. You'll be provided with access to datasets containing user information, events data, and email engagement details.
+8. **[Library Management System](https://github.com/tushar2704/Library_Management_System)**: The Library Management System is a project aimed at creating an efficient system for managing a library's operations. This system allows users to issue books, search for different books and their titles, and provides detailed information about the books available in the library. By automating these processes, it eliminates the need for manual record-keeping and offers a user-friendly experience.
 
 
 ## Repository Structure
 
-The repository is structured as follows:
-
-- **Project folders**: Each project has its own folder containing SQL scripts, database schemas, and any related documentation.
-
-- **README files**: Inside each project folder, you will find a README file with a detailed explanation of the project's objectives, methodology, and outcomes.
-
-## Getting Started
 
 To explore my SQL portfolio, follow these steps:
 
 
-1. Navigate to the project folder that interests you.
+1. Navigate to the project links that interests you.
 
 2. Open the README file to get an overview of the project and its components.
 
